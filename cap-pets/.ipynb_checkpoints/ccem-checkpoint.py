@@ -138,7 +138,7 @@ class ConstrainedCEM:
     
         # Calculate base sigma for each average (shape: [n_averages,])
         i_values = np.arange(1, num_workers + 1)
-        sigma_i = ((i_values / (num_workers)) ** 2) * (self.ac_ub[0] - self.ac_lb[0]) / phi
+        sigma_i = ((i_values / (num_workers)) ** 3) * (self.ac_ub[0] - self.ac_lb[0]) / phi
         #print(self.ac_ub[0] - self.ac_lb[0])
         # Apply SRF (shape: [n_averages,])
         srf = np.linspace(0.95**iter, 1.05**iter, num_workers)
