@@ -1,20 +1,17 @@
-# Conservative and Adaptive Penalty for Model-Based Safe Reinforcement Learning
+# 基于MCEO的无梯度强化学习算法
 
-This is the official repository for Conservative and Adaptive Penalty for Model-Based Safe Reinforcement Learning.
-We provide the commands to run the PETS and PlaNet experiments included in the paper. This repository is made minimal for ease of experimentation. 
 
-## Installations
-This repository requires Python (3.6), Pytorch (version 1.3 or above)
-run the following command to create a conda environment (tested using CUDA10.2):
+包括了基于MCEO的策略搜索与基于模型的强化学习框架下的MCEO优化两部分算法
+其中环境的配置如下：
 ```
 conda env create -f environment.yml
  ```
-## Experiments
+## 实验
 
-### To run the PETS experiments on the HalfCheetah environment used in our ablation study, run:
+### 实验一：离散线性系统控制
 
 ```
-cd cap-pets
+python 
 ```
 
 **CAP**
