@@ -4,7 +4,7 @@
 包括了基于MCEO的策略搜索与基于模型的强化学习框架下的MCEO优化两部分算法
 其中环境的配置如下：
 ```
-conda env create -f environment.yml
+pip install requirements.txt
  ```
 ## 实验部分
 
